@@ -19,7 +19,33 @@
   }
 .div-inputs input{
   margin-top: 15px;
+  margin-left: 15px;
+
 }
+
+
+.div-checkbox {
+
+display: flex;
+flex-direction: column;
+}
+
+.div-checkbox input{
+margin-left: 15px;
+margin-top: 10px;
+}
+
+
+  
+  
+
+
+
+
+
+
+
+
 #trybewarts-header-title {
   justify-content: center;
   align-self: center;
@@ -40,4 +66,3 @@ main {
   display: flex;
   flex-direction: row;
 }
-#
