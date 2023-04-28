@@ -9,3 +9,21 @@ const validacao = () => {
 };
 
 btnLogin.addEventListener('click', validacao);
+
+
+//validação do botão (btnSubmit)
+
+const btnSubmit = document.querySelector('#submit-btn');
+
+btnSubmit.addEventListener("click", (event) =>{
+  
+  const checkbox = docuemnt.querySelector('#checkboxInfo');
+
+  if ( checkbox.value !== 'true'){
+    
+     event.preventDefault();
+  }
+
+
+
+})

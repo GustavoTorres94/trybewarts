@@ -4,7 +4,6 @@
 }
 
 .header {
-  border:1px solid blue;
   display: flex;
   background-color: rgb(50, 167, 145);
 }
@@ -34,11 +33,35 @@ flex-direction: column;
 margin-left: 15px;
 margin-top: 10px;
 }
+.div-radio{
+  margin-top:10px;
+  flex-direction: column;
+ 
+}
+.div-radio input{
+  margin-top:10px;
+ margin-left: 15px;
+  flex-direction: row;
+ 
+}
+.textarea{
+  margin-top: 15px;
+  display: flex;
+}
+.textarea textarea{
 
+ margin-left: 15px;
 
-  
-  
-
+}
+.btnEnviar{
+  margin-left: 15px;
+  margin-top: 5px;
+}  
+.footer{
+  width: 100%;
+  background-color: rgb(50, 167, 145);
+  text-align: center;
+}
 
 
 
@@ -52,9 +75,7 @@ margin-top: 10px;
 }
 
 
-main {
-  display: flex;
-}
+
 
 #evaluation-form {
   display: flex;
@@ -65,4 +86,15 @@ main {
 #test-div {
   display: flex;
   flex-direction: row;
+}
+#validacao{
+
+  margin-top: 15px;
+}
+main {
+  display: flex;
+}
+footer{
+
+  margin-top: 15px;
 }
