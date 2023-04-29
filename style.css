@@ -11,71 +11,64 @@
 .trybewarts-login {
   display: flex;
 }
+
 .div-inputs {
   display: flex;
   flex-direction: column;
   margin-top: 10px;
-  }
-.div-inputs input{
+}
+
+.div-inputs input {
   margin-top: 15px;
   margin-left: 15px;
-
 }
-
 
 .div-checkbox {
-
-display: flex;
-flex-direction: column;
-}
-
-.div-checkbox input{
-margin-left: 15px;
-margin-top: 10px;
-}
-.div-radio{
-  margin-top:10px;
+  display: flex;
   flex-direction: column;
- 
 }
-.div-radio input{
-  margin-top:10px;
- margin-left: 15px;
+
+.div-checkbox input {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.div-radio {
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+.div-radio input {
+  margin-top: 10px;
+  margin-left: 15px;
   flex-direction: row;
- 
 }
-.textarea{
+
+.textarea {
   margin-top: 15px;
   display: flex;
 }
-.textarea textarea{
 
- margin-left: 15px;
-
+.textarea textarea {
+  margin-left: 15px;
 }
-.btnEnviar{
+
+.btnEnviar {
   margin-left: 15px;
   margin-top: 5px;
-}  
-.footer{
+}
+
+
+.footer {
   width: 100%;
   background-color: rgb(50, 167, 145);
   text-align: center;
 }
 
-
-
-
-
-
-
 #trybewarts-header-title {
   justify-content: center;
   align-self: center;
 }
-
-
-
 
 #evaluation-form {
   display: flex;
@@ -87,14 +80,15 @@ margin-top: 10px;
   display: flex;
   flex-direction: row;
 }
-#validacao{
 
+#validacao {
   margin-top: 15px;
 }
+
 main {
   display: flex;
 }
-footer{
 
+footer {
   margin-top: 15px;
 }
