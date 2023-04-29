@@ -1,4 +1,4 @@
-const btnLogin = document.getElementById('btn-login');
+const btnSubmit = document.querySelector('#btn-login');
 
 const validacao = () => {
   const login = document.getElementById('login').value;
@@ -9,13 +9,18 @@ const validacao = () => {
   alert('Email ou senha inválidos.');
 };
 
+btnSubmit.addEventListener('click', validacao);
 
-const btnSubmit = document.querySelector('#submit-btn');
+const btnEnviar = document.querySelector('#submit-btn')
 
-btnSubmit.addEventListener('click', (event) => {
+function enviar(event) {
   const checkbox = document.querySelector('#checkboxInfo');
 
   if (checkbox.value !== 'true') {
     event.preventDefault();
-  }
-});
+  } else (checkbox.value !== 'false') {
+btnSubmit.addEventListener('click', validacao);
+}
+}
+
+btnEnviar.addEventListener('click', enviar);
