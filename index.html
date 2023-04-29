@@ -14,20 +14,20 @@
         <div>
             <form action="" class="trybewarts-login">
                 <label for="email">Usuário:</label>
-                <input type="email" name="email" placeholder="Email" id="login">
-                <label for="password">Senha:</label>
-                <input type="password" name="password" placeholder="Senha" id="psw">
+                <input type="email" name="email" placeholder="Email" id="login" required>
+                <label for="password" required>Senha:</label>
+                <input type="password" name="password" placeholder="Senha" id="psw" required>
                 <button type="submit" id="btn-login">Entrar</button>
             </form>
         </div>
     </header>
     <main>
         <div>
-            <form action="" id="evaluation-form" class="styleForm" > 
+            <form action="" id="evaluation-form" class="styleForm"  method="get"> 
                 <div id="test-div" >
-                    <input type="text" name="" placeholder="Nome" id="input-name">
-                    <input type="text" name="" placeholder="Sobrenome" id="input-lastname">
-                    <input type="email" name="" placeholder="Email" id="input-email">
+                    <input type="text" name="" placeholder="Nome" id="input-name" required>
+                    <input type="text" name="" placeholder="Sobrenome" id="input-lastname" required>
+                    <input type="email" name="" placeholder="Email" id="input-email" required>
                     <label for="house">Casa:</label>
                     <select name="" id="house">
                         <option id="gitnoria-house" value="Gitnória">Gitnória</option>
@@ -106,7 +106,7 @@
                  </div>
                  <div id="validacao">
                     <label>Você concorda com o uso das informações acima?</label>
-                    <input type="checkbox" id="agreement">
+                    <input type="checkbox" id="agreement" required >
                  </div>
                  <div>
                         <button id="submit-btn" type="submit" class="btnEnviar">Enviar</button>

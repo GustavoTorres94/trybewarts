@@ -9,7 +9,6 @@ const validacao = () => {
   alert('Email ou senha inválidos.');
 };
 
-btnLogin.addEventListener('click', validacao);
 
 const btnSubmit = document.querySelector('#submit-btn');
 
