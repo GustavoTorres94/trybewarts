@@ -5,25 +5,18 @@ const validacao = () => {
   const senha = document.getElementById('psw').value;
   if (login === 'tryber@teste.com' && senha === '123456') {
     alert('Olá, Tryber!');
-  } alert('Email ou senha inválidos.');
+  }
+  alert('Email ou senha inválidos.');
 };
 
 btnLogin.addEventListener('click', validacao);
 
-
-//validação do botão (btnSubmit)
-
 const btnSubmit = document.querySelector('#submit-btn');
 
-btnSubmit.addEventListener("click", (event) =>{
-  
-  const checkbox = docuemnt.querySelector('#checkboxInfo');
+btnSubmit.addEventListener('click', (event) => {
+  const checkbox = document.querySelector('#checkboxInfo');
 
-  if ( checkbox.value !== 'true'){
-    
-     event.preventDefault();
+  if (checkbox.value !== 'true') {
+    event.preventDefault();
   }
-
-
-
-})
+});
