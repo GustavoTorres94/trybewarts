@@ -18,9 +18,9 @@ function enviar(event) {
 
   if (checkbox.value !== 'true') {
     event.preventDefault();
-  } else (checkbox.value !== 'false') {
-btnSubmit.addEventListener('click', validacao);
-}
+  } else/* (checkbox.value !== 'false')*/ {
+    btnSubmit.addEventListener('click', validacao);
+  }
 }
 
 btnEnviar.addEventListener('click', enviar);
